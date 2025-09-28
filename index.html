@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone 17 Pre-order Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+</head>
+<body>
+  <div class="header">
+    <div> <img src="iSolutions Pakistan.png" alt="" style="width: 300px; height: 300px;"></div>
+    <img src="form.png" alt="iPhone 17" class="iphone-img">
+</div>
+  <div class="form-container">
+    <div class="form-header">
+      <h1>Interested in Buying iPhone 17?</h1>
+    </div>
+
+    <form id="preorderForm">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="city">City</label>
+        <select id="city" name="city">
+          <option value="">Select City</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Karachi">Karachi</option>
+          <option value="Islamabad">Islamabad</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="model">iPhone 17 Model</label>
+        <select id="model" name="model">
+          <option value="">Select Model</option>
+          <option value="Pro">iPhone 17</option>
+          <option value="Pro">iPhone 17 Air</option>
+          <option value="Pro">iPhone 17 Pro</option>
+          <option value="Pro Max">iPhone 17 Pro Max</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="storage">Storage</label>
+        <select id="storage" name="storage">
+          <option value="">Select Storage</option>
+          <option value="256GB">256GB</option>
+          <option value="512GB">512GB</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>iPhone 17 Color</label>
+        <div class="color-options">
+  <label class="color lavender">
+    <input type="radio" name="color" value="Lavender">
+    <i class="fas fa-circle"></i> Lavender
+  </label>
+  <label class="color sage">
+    <input type="radio" name="color" value="Sage">
+    <i class="fas fa-circle"></i> Sage
+  </label>
+  <label class="color mist-blue">
+    <input type="radio" name="color" value="Mist Blue">
+    <i class="fas fa-circle"></i> Mist Blue
+  </label>
+  <label class="color white">
+    <input type="radio" name="color" value="White">
+    <i class="fas fa-circle"></i> White
+  </label>
+  <label class="color black">
+    <input type="radio" name="color" value="Black">
+    <i class="fas fa-circle"></i> Black
+  </label>
+</div>
+      </div>
+
+     <div class="form-group">
+  <label>Which other Apple Products are you interested in?</label>
+  <div class="product-options">
+    <label class="product">
+      <input type="checkbox" name="products" value="Apple Watch Series 11">
+      <span class="product-icon apple-watch-series-11"></span>
+      Apple Watch Series 11
+    </label>
+    <label class="product">
+      <input type="checkbox" name="products" value="Apple Watch SE 3">
+      <span class="product-icon apple-watch-se-3"></span>
+      Apple Watch SE 3
+    </label>
+    <label class="product">
+      <input type="checkbox" name="products" value="Apple Watch Ultra 3">
+      <span class="product-icon apple-watch-ultra-3"></span>
+      Apple Watch Ultra 3
+    </label>
+    <label class="product">
+      <input type="checkbox" name="products" value="AirPods Pro 3">
+      <span class="product-icon airpods-pro-3"></span>
+      AirPods Pro 3
+    </label>
+  </div>
+</div>
+
+      <button type="submit">Next</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
